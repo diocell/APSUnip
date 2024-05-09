@@ -87,6 +87,46 @@ header{
   border: 1px solid #000;
 }
 
+/* * DROPDOWN */
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f59e09;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.593);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px dotted #ffff;
+  font-size: 16px !important;
+}
+
+.dropbtn{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f6b92c;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 /* ! SEÇÃO INICIAL */
 
 .init{
@@ -162,12 +202,42 @@ header{
 .sobre .sobre-content img{
   width: 100%;
   border-radius: 5px;
+  margin: 0 auto;
 }
 
 .sobre .sobre-content p{
   font-family: Parag;
   font-size: 20px;
   text-align: justify;
+}
+
+/* ! PAGINA ORIGEM */ 
+
+
+.headerPags{
+  position: relative;
+}
+
+.contentPags{
+  margin-top: 0;
+}
+
+.content .container .sobrePags{
+  margin-top: 45px;
+}
+
+.container .sobre .sCont-Hist img{
+  width: 350px;
+}
+
+.flexCol{
+  display: flex !important;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.flexCol img{
+  width: 650px !important;
 }
 
 /* !========================================== */
