@@ -126,6 +126,36 @@ header{
   display: block;
 }
 
+#listaProdutos{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 45px;
+}
+
+#listaProdutos li a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Parag;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #df590c;
+  padding: 12px;
+}
+
+#listaProdutos li a:hover{
+  background-color: #f59e09;
+}
+
+
+
 
 /* ! SEÇÃO INICIAL */
 
@@ -265,6 +295,22 @@ header{
   border-radius: 20px;
   box-shadow: 0px 0px 11px 0px rgba(255,231,171,0.9);
 }
+
+/* ! PAGINA PRODUTOS */
+
+.sobre-content h3{
+  font-family: Titulo;
+  text-align: center;
+}
+
+.sizeFixed{
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
 
 /* !========================================== */
 /* !FOOTER */

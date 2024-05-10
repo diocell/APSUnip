@@ -19,14 +19,17 @@
       <ul>
         <li><a href="index.html">Início</a></li>
         <li><a href="index.html#sobre" id="button">Sobre</a></li>
-        <li><input type="text" name="txtBusca" id="txtBusca" placeholder="Busca"></li>
+        <li><input onkeyup="filtrar()" type="text" name="txtBusca" id="txtBusca" placeholder="Buscar Produtos ou Abelhas"></li>
+        <ul id="listaProdutos">
+          
+        </ul>
         <li>
           <div class="dropdown">
             <a class="dropbtn">Paginas <i class="fa-solid fa-angle-down"></i></a>
             <div class="dropdown-content">
               <a href="origemApi.html">História da Apicultura</a>
               <a href="tiposAbelha.html">Tipos de abelhas</a>
-              <a href="processosProducao.html">Processos da produção</a>
+              <a href="produtos.html">Produtos</a>
             </div>
           </div>
         </li>
@@ -90,5 +93,6 @@
     </ul>
   </footer>
   <script src="https://kit.fontawesome.com/2567667a20.js" crossorigin="anonymous"></script>
+  <script src="./script/script.js"></script>
 </body>
 </html>

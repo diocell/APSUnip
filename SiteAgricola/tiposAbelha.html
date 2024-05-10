@@ -19,14 +19,17 @@
       <ul>
         <li><a href="index.html">Início</a></li>
         <li><a href="index.html#sobre" id="button">Sobre</a></li>
-        <li><input type="text" name="txtBusca" id="txtBusca" placeholder="Busca"></li>
+        <li><input onkeyup="filtrar()" type="text" name="txtBusca" id="txtBusca" placeholder="Buscar Produtos ou Abelhas"></li>
+        <ul id="listaProdutos">
+          
+        </ul>
         <li>
           <div class="dropdown">
             <a class="dropbtn">Paginas <i class="fa-solid fa-angle-down"></i></a>
             <div class="dropdown-content">
               <a href="origemApi.html">História da Apicultura</a>
               <a href="tiposAbelha.html">Tipos de abelhas</a>
-              <a href="processosProducao.html">Processos da produção</a>
+              <a href="produtos.html">Produtos</a>
             </div>
           </div>
         </li>
@@ -47,7 +50,7 @@
             maior resistência a doenças e maior defensividade.
           </p>
         </div>
-        <div class="sobre-content containerCont">
+        <div id="7" class="sobre-content containerCont">
           <img src="./assets/imgs/AbelhaAfricana.jpg" alt="Abelha Africana">
           <div class="direitaCont">
             <h2> Abelha Africana (Apis mellifera scutellata)</h2>
@@ -65,7 +68,7 @@
             </p>
           </div>
         </div>
-        <div class="sobre-content containerCont">
+        <div id="8" class="sobre-content containerCont">
           <img src="./assets/imgs/AbelhaAlema.jpeg" alt="Abelha Europeia">
           <div class="direitaCont">
             <h2> Abelha Europeia (Apis mellifera mellifera) </h2>
@@ -80,7 +83,7 @@
             </p>
           </div>
         </div>
-        <div class="sobre-content containerCont">
+        <div id="9" class="sobre-content containerCont">
           <img src="./assets/imgs/AbelhaItaliana.jpg" alt="Abelha Italiana">
           <div class="direitaCont">
             <h2> Abelha Italiana (Apis mellifera ligustica) </h2>
@@ -95,7 +98,7 @@
             </p>
           </div>
         </div>
-        <div class="sobre-content containerCont">
+        <div id="10" class="sobre-content containerCont">
           <img src="./assets/imgs/AbelhaCarnica.jpg" alt="Abelha Carnica">
           <div class="direitaCont">
             <h2> Abelha Carnica (Apis mellifera carnica) </h2>
@@ -122,5 +125,6 @@
     </ul>
   </footer>
   <script src="https://kit.fontawesome.com/2567667a20.js" crossorigin="anonymous"></script>
+  <script src="./script/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./assets/Icon/abelha.png">
+</head>
+<body>
+  <header class="headerPags">
+    <nav class="menu">
+      <ul>
+        <li><img src="./assets/Logo/LogoTeste.png" alt="Logotipo"></li>
+        <li><a href="#">Contatos</a></li>
+      </ul>
+    </nav>
+    <nav class="subMenu">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="index.html#sobre" id="button">Sobre</a></li>
+        <li><input onkeyup="filtrar()" type="text" name="txtBusca" id="txtBusca" placeholder="Buscar Produtos ou Abelhas"></li>
+        <ul id="listaProdutos">
+          
+        </ul>
+        <li>
+          <div class="dropdown">
+            <a class="dropbtn">Paginas <i class="fa-solid fa-angle-down"></i></a>
+            <div class="dropdown-content">
+              <a href="origemApi.html">História da Apicultura</a>
+              <a href="tiposAbelha.html">Tipos de abelhas</a>
+              <a href="produtos.html">Produtos</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="sobre" class="content contentPags">
+    <div class="container">
+      <div class="sobre sobrePags">
+        <h1>6 Produtos da Apicultura</h1>
+        <div class="sobre-content flexCol">
+          <img src="./assets/imgs/melProd.jpg" alt="Produtos do mel">
+          <p>
+            A industrialização dos produtos da apicultura permite a obtenção de diversos subprodutos. 
+            Na prática, esse processo consiste na transformação da matéria-prima com agregação de 
+            novos componentes ou pelo simples fracionamento do produto, possibilitando a diversificação 
+            e, consequentemente, contribuindo para a melhoria da renda do produtor. <br><br>
+            Abaixo, vamos mostrar os principais produtos que você pode fazer na atividade apícola:
+          </p>
+        </div>
+        <div class="sobre-content">
+          <div id="1" class="containerCont sizeFixed">
+            <h3> Mel </h3>
+            <p>
+              A OMS (Organização Mundial de Saúde) define o mel como uma substância açucarada obtida 
+              a partir do néctar das plantas ou que se encontre sobre elas, a qual as abelhas trabalham, 
+              transformam e combinam com matérias específicas, depositando depois nos favos da colmeia.
+            </p>
+          </div>
+          <div id="2" class="containerCont sizeFixed">
+            <h3> Pólen </h3>
+            <p>
+              É um produto altamente proteico, rico em vitaminas e sais minerais. Atualmente tem ocupado 
+              importante papel na apicultura como fonte de renda do apicultor.
+            </p>
+          </div>
+        </div>
+        <div id="3" class="sobre-content">
+          <div class="containerCont sizeFixed">
+            <h3> Própolis </h3>
+            <p>
+              A própolis é uma substância resinosa que as abelhas colhem dos brotos, botões e cascas de 
+              árvores.
+            </p>
+          </div>
+          <div id="4" class="containerCont sizeFixed">
+            <h3> Geleia Real </h3>
+            <p>
+              A geleia real é uma secreção de glândulas específicas das abelhas operárias, ou seja, um leite 
+              denso, cremoso, com sabor ácido, doce e picante.
+            </p>
+          </div>
+        </div>
+        <div id="5" class="sobre-content">
+          <div class="containerCont sizeFixed">
+            <h3> Cera </h3>
+            <p>
+              É uma substância oleosa secretada pelas glândulas cerígenas das abelhas operárias e 
+              sintetizada pela redução de açúcares. Apresenta cores diversas e é insolúvel em água.
+            </p>
+          </div>
+          <div id="6" class="containerCont sizeFixed">
+            <h3> Aptoxina </h3>
+            <p>
+              O veneno da abelha é chamado de Apitoxina. Ele é produzido por glândulas existentes no 
+              abdômen e introduzido através do canal existente no ferrão. É uma substância química 
+              complexa usada para pomadas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <h2>Feito por Alunos do 1º Semestre Ciências da Computação</h2>
+    <ul>
+      <li>Diogo Canevarollo</li>
+      <li>Igor Beltramelo</li>
+      <li>Danilo Freire</li>
+      <li>Valério Junior</li>
+    </ul>
+  </footer>
+  <script src="https://kit.fontawesome.com/2567667a20.js" crossorigin="anonymous"></script>
+  <script src="./script/script.js"></script>
+</body>
+</html>
