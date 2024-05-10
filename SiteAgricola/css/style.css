@@ -209,6 +209,7 @@ header{
   font-family: Parag;
   font-size: 20px;
   text-align: justify;
+  width: 90%;
 }
 
 /* ! PAGINA ORIGEM */ 
@@ -238,6 +239,31 @@ header{
 
 .flexCol img{
   width: 650px !important;
+}
+
+/* ! PAGINA TIPO DE ABELHAS */
+
+.direitaCont{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.direitaCont h2{
+  font-family: Titulo;
+  font-size: 20px;
+  text-align: center;
+}
+
+.direitaCont p{
+  font-size: 16px !important;
+}
+
+.containerCont{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 11px 0px rgba(255,231,171,0.9);
 }
 
 /* !========================================== */
