@@ -59,9 +59,12 @@ function filtrar(){
     }
   }
 
+  //VARIAVEL PARA PEGAR O VALOR DA INPUT E SE FOR ZERADA, NAO MOSTRAR NADA
+  inputValor = input.value;
+  
   if(count === 0 ){
     ul.style.display = "none";
-  } if(input.length = 0) {
+  } if(inputValor === "") {
     ul.style.display = "none";
   } 
   else {

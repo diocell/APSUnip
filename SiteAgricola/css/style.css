@@ -154,9 +154,6 @@ header{
   background-color: #f59e09;
 }
 
-
-
-
 /* ! SEÇÃO INICIAL */
 
 .init{
@@ -319,13 +316,45 @@ header{
 
 footer{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-family: Titulo;
   background-color: #000;
   height: 100px;
   color: #fff;
+  width: 100%;
+}
+
+footer .contGeralFooter{
+  display: inline-flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  width: 80%;
+}
+
+footer .contFooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .contatos{
+  display: flex;
+  flex-direction: column;
+  justify-content: end !important;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+
+footer .contatos .imgCont{
+  column-gap: 10px;
+}
+
+footer .contatos img{
+  width: 40px;
 }
 
 footer ul{
