@@ -307,6 +307,10 @@ header{
   gap: 25px;
 }
 
+.sobre .sobre-content .sizeFixed p{
+  align-self: center;
+}
+
 
 
 /* !========================================== */
