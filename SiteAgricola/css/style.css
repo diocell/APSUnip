@@ -327,9 +327,9 @@ footer{
 
 footer .contGeralFooter{
   display: inline-flex;
-  margin-right: auto;
+  margin-right: 30px;
   margin-left: auto;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 80%;
 }
 
