@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafios e Preocupações</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./assets/Icon/abelha.png">
+</head>
+<body>
+  <header class="headerPags">
+    <nav class="menu">
+      <ul>
+        <li><img src="./assets/Logo/LogoTeste.png" alt="Logotipo"></li>
+      </ul>
+    </nav>
+    <nav class="subMenu">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="index.html#sobre" id="button">Sobre</a></li>
+        <li><input onkeyup="filtrar()" type="text" name="txtBusca" id="txtBusca" placeholder="Buscar Produtos ou Abelhas"></li>
+        <ul id="listaProdutos">
+          
+        </ul>
+        <li>
+          <div class="dropdown">
+            <a class="dropbtn">Paginas <i class="fa-solid fa-angle-down"></i></a>
+            <div class="dropdown-content">
+              <a href="origemApi.html">O que é Apicultura</a>
+              <a href="tiposAbelha.html">Tipos de abelhas</a>
+              <a href="produtos.html">Produtos</a>
+              <a href="desafios.html">Desafios e Preocupações</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="sobre" class="content contentPags">
+    <div class="container">
+      <div class="sobre sobrePags">
+        <h1>Dificuldades e Preocupações</h1>
+        <div class="sobre-content flexCol">
+          <img src="./assets/imgs/desafiosApi.jpeg" alt="Desafios">
+          <p>
+            Um apicultor enfrenta uma série de desafios e preocupações ao longo de sua atividade que podem envolver diversas razões. 
+            A seguir, vamos mostrar algumas das principais dificuldades e preocupações enfrentadas pelos apicultores:
+          </p>
+        </div>
+        <div class="sobre-content">
+          <div class="containerCont sizeFixed sizeDesafios">
+            <h3 class="sizeHigh"> Saúde das abelhas: </h3>
+            <p>
+              <b>Doenças e Parasitas:</b> As abelhas estão sujeitas a uma série de doenças e parasitas, como a varroose, 
+              nosema, loque americana, entre outras.
+              <br> <br><b>Pesticidas e Agrotóxicos:</b> A exposição a pesticidas e agrotóxicos pode enfraquecer e até mesmo dizimar as colmeias.
+            </p>
+          </div>
+          <div class="containerCont sizeFixed sizeDesafios">
+            <h3 class="sizeHigh"> Alimentação das abelhas: </h3>
+            <p>
+              <b>Disponibilidade de néctar e pólen:</b> A escassez de flores e a falta de diversidade floral podem 
+              comprometer a alimentação das abelhas. <br><br>
+              <b>Suplementação alimentar:</b> Em períodos de escassez de alimentos, os apicultores precisam fornecer 
+              suplementos alimentares para garantir a saúde das colmeias.
+            </p>
+          </div>
+        </div>
+        <div class="sobre-content">
+          <div class="containerCont sizeFixed sizeDesafios">
+            <h3 class="sizeHigh">Condições climáticas adversas: </h3>
+            <p>
+              <b>Frio extremo:</b> O frio intenso pode prejudicar ou até matar as abelhas durante o inverno. <br><br>
+              <b>Secas prolongadas:</b> A falta de água e a escassez de alimentos podem afetar a produção de mel e enfraquecer as colmeias.
+            </p>
+          </div>
+          <div class="containerCont sizeFixed sizeDesafios">
+            <h3 class="sizeHigh"> Manejo das colmeias: </h3>
+            <p>
+              <b>Controle de pragas e doenças:</b> Os apicultores precisam monitorar regularmente suas colmeias e tomar
+              medidas para prevenir e controlar infestações. <br><br>
+              <b>Manutenção das colmeias:</b> As colmeias precisam ser constantemente verificadas e mantidas para 
+              garantir um ambiente saudável para as abelhas.
+            </p>
+          </div>
+        </div>
+        <div class="sobre-content">
+          <div class="containerCont sizeFixed sizeDesafios">
+            <h3 class="sizeHigh">Mercado e comercialização: </h3>
+            <p>
+              <b>Competição:</b> O mercado de mel pode ser altamente competitivo, e os apicultores precisam encontrar 
+              maneiras de se destacar e atrair clientes. <br><br>
+              <b>Preços:</b> Flutuações nos preços do mel podem afetar significativamente os lucros dos apicultores.
+            </p>
+          </div>
+          <div class="containerCont sizeFixed sizeDesafios">
+            <h3 class="sizeHigh"> Regulamentações e legislação: </h3>
+            <p>
+              <b>Normas sanitárias:</b> Os apicultores precisam cumprir uma série de regulamentações relacionadas à 
+              produção e comercialização de mel e outros produtos apícolas. <br><br>
+              <b>Licenciamento e registros:</b> Em muitas regiões, os apicultores precisam obter licenças e manter 
+              registros detalhados de suas atividades.
+            </p>
+          </div>
+        </div>
+        <div class="sobre-content">
+          <div class="containerCont sizeFixed sizeDesafios">
+            <h3 class="sizeHigh">Perda de habitat: </h3>
+            <p>
+              <b>Desmatamento:</b> A perda de habitats naturais devido ao desmatamento pode reduzir a disponibilidade de 
+              flores e afetar negativamente as populações de abelhas. <br><br>
+              <b>Monoculturas:</b> O aumento das monoculturas pode reduzir a diversidade floral, tornando mais 
+              difícil para as abelhas encontrar alimentos.
+            </p>
+          </div>
+          <div class="containerCont sizeFixed sizeDesafios">
+            <h3 class="sizeHigh"> Capacitação e educação: </h3>
+            <p>
+              <b>Técnicas de manejo:</b> Os apicultores precisam estar constantemente atualizados sobre as melhores 
+              práticas de manejo e cuidado com as abelhas. <br><br>
+              <b>Gestão do negócio:</b> Além do manejo das colmeias, os apicultores também precisam gerenciar seus 
+              negócios, lidando com questões como contabilidade, marketing e vendas.
+            </p>
+          </div>
+        </div>
+        <div class="sobre-content flexCol">
+          <p>
+            Essas são apenas algumas das principais dificuldades e preocupações enfrentadas pelos apicultores em 
+            sua atividade diária. Cada uma delas exige atenção e cuidado constantes para garantir o sucesso e a 
+            sustentabilidade da atividade apícola.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="contGeralFooter">
+      <div class="contFooter">
+        <h2>Feito por Alunos do 1º Semestre Ciências da Computação</h2>
+        <ul>
+          <li>Diogo Canevarollo</li>
+          <li>Igor Beltramelo</li>
+          <li>Danilo Freire</li>
+          <li>Valério Junior</li>
+        </ul>
+      </div>
+      <div class="contatos">
+        <p>Contatos</p>
+        <div class="imgCont">
+          <img src="./assets/Icon/whatsapp.png" alt="">
+          <img src="./assets/Icon/instagram.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/2567667a20.js" crossorigin="anonymous"></script>
+  <script src="./script/script.js"></script>
+</body>
+</html>

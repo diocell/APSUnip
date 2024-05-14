@@ -311,7 +311,15 @@ header{
   align-self: center;
 }
 
+/* ! PAGINA DIFICULDADES */
 
+.sizeHigh{
+  font-size: 22px !important;
+}
+
+.sizeDesafios{
+  height: 320px;
+}
 
 /* !========================================== */
 /* !FOOTER */
