@@ -375,3 +375,137 @@ footer ul{
   position: relative;
   list-style: none;
 }
+
+@media (max-width: 650px)  {
+
+  header{
+    position: relative;
+    width: 100vw;
+  }
+
+  .menu ul{
+    justify-content: center;
+  }
+
+  .menu ul li img{
+    width: 250px;
+  }
+
+  .subMenu ul li a{
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .subMenu ul li input{
+    width: 150px;
+    padding: 2px 5px;
+    font-size: 13px;
+  }
+
+  .dropdown-content{
+    min-width: 140px;
+    right: 8px;
+  }
+
+  .dropdown-content a{
+    padding: 12px 10px !important;
+    font-size: 13px !important;
+  }
+
+  #listaProdutos{
+    width: 45%;
+  }
+
+  #listaProdutos li a{
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .init::before{
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .init{
+    height:50vh;
+    padding-top: 45px;
+  }
+
+  .init figcaption{
+    top: 60%;
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .content{
+    margin-top: 0 !important;
+    padding-bottom: 50px;
+  }
+
+  .container{
+    width: 90%;
+  }
+
+  .content .container .sobre{
+    margin-top: 45px;
+  }
+
+  .sobre h1{
+    font-size: 30px;
+  }
+
+  .sobre .sobre-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 10px;
+  }
+
+  .sobre .sobre-content p{
+    font-size: 18px;
+    width: 100%;
+  }
+
+  footer{
+    height: 80;
+  }
+
+  footer .contGeralFooter{
+    width:100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  footer .contatos img{
+    width: 30px;
+  }
+
+  footer .contatos{
+    display: flex;
+    position: relative;
+  }
+
+  footer h2{
+    font-size: 13px;
+  }
+
+  footer ul{
+    gap: 5px;
+  }
+
+  footer ul li{
+    font-size: 10px;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+
+  .flexCol img{
+    width: 100% !important;
+  }
+
+  .sizeDesafios{
+    height: 340px;
+  }
+}
