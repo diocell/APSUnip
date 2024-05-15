@@ -530,5 +530,6 @@ footer ul{
 @media (max-width: 410px){
   .init figcaption{
     font-size: 15px;
+    text-align: center;
   }
 }
