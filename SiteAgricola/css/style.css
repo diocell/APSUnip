@@ -437,7 +437,6 @@ footer ul{
     width: 90%;
     top: 60%;
     font-size: 20px;
-    text-align: center;
     margin-top: 0;
   }
 
@@ -525,5 +524,11 @@ footer ul{
 
   .sizeDesafios{
     height: 100%;
+  }
+}
+
+@media (max-width: 410px){
+  .init figcaption{
+    font-size: 15px;
   }
 }
